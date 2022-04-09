@@ -21,6 +21,7 @@ const PAGELIST = [
             alt: 'homepage background'
         },
         thumbnails: [{}]
-    }
+    },
+    SOCIAL_ICONS = ['mdi:youtube', 'mdi:twitter', 'mdi:instagram', 'mdi:facebook']
 
-export { PAGELIST, MAIN_IMAGES }
+export { PAGELIST, MAIN_IMAGES, SOCIAL_ICONS }
