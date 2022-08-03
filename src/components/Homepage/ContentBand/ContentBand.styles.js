@@ -19,7 +19,7 @@ const styles = {
     fullSection: {
         margin: 'auto',
         textAlign: 'center',
-        width: '50%'
+        width: '70%'
     },
     splitSection: {
         '& > div': {

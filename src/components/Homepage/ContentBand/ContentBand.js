@@ -6,7 +6,7 @@ import styles from './ContentBand.styles';
 // import { StaticImage } from 'gatsby-plugin-image';
 // import WaveSVG from '../../../static/assets/wave.svg';
 
-const ContentBand = ({ orientation, mainContent, sideContent, gradientIn, gradientOut }) => {
+const ContentBand = ({ orientation, mainContent, sideContent, gradientIn, gradientOut, ...props }) => {
     const classes = createUseStyles(styles)({ gradientIn, gradientOut }),
         renderBand = () => {
             if (orientation === 'center') {
@@ -32,7 +32,7 @@ const ContentBand = ({ orientation, mainContent, sideContent, gradientIn, gradie
         }
 
     return (
-        <Box component='div' className={classes.root}>
+        <Box component='div' className={classes.root} {...props}>
             {renderBand()}
         </Box>
     );

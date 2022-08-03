@@ -5,9 +5,9 @@ const PAGELIST = [
         route: '/'
     },
     {
-        id: 'projects',
-        title: 'Projects',
-        route: '/projects'
+        id: 'gallery',
+        title: 'Gallery',
+        route: '/gallery'
     },
     {
         id: 'contact',
